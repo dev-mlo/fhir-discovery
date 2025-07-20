@@ -1,0 +1,51 @@
+@use "atomic";
+
+$font-name: 'Material Symbols Outlined';
+
+.icon{
+  font-family: $font-name;
+}
+
+.icon-search{
+  content: 'search';
+  font-family: $font-name;
+}
+
+.icon-search-before:before{
+  @extend .icon-search;
+}
+
+.icon-check-before:before{
+  content: 'check';
+  font-family: $font-name;
+}
+
+.icon-close-before:before{
+  content: 'close';
+  font-family: $font-name;
+}
+
+.icon-replay-before:before{
+  content: 'replay';
+  font-family: $font-name;
+}
+
+.icon-menu-before:before{
+  content: 'dehaze';
+  font-family: $font-name;
+}
+
+.icon-info-before:before{
+  content: 'info';
+  font-family: $font-name;
+}
+
+.icon-warning-before:before{
+  content: 'warning';
+  font-family: $font-name;
+}
+
+.icon-error-before:before{
+  content: 'error';
+  font-family: $font-name;
+}

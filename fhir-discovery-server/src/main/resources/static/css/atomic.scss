@@ -1,0 +1,304 @@
+$factor-1: 6px;
+$factor-2: 12px;
+$factor-3: 18px;
+$factor-4: 24px;
+$factor-5: 32px;
+
+.weight-100{
+  font-weight: 100;
+}
+.weight-200{
+  font-weight: 200;
+}
+.weight-300{
+  font-weight: 300;
+}
+.weight-400{
+  font-weight: 400;
+}
+.weight-500{
+  font-weight: 500;
+}
+
+.hidden{
+  display: none;
+}
+
+.show{
+  display: unset;
+}
+
+.p-unset{
+  padding: unset;
+}
+
+.p-1{
+  padding: $factor-1;
+}
+
+.p-2{
+  padding: $factor-2;
+}
+
+.p-3{
+  padding: $factor-3;
+}
+
+.p-4{
+  padding: $factor-4;
+}
+
+.p-5{
+  padding: $factor-5;
+}
+
+.pt-unset{
+  padding-top: unset;
+}
+
+.pt-1{
+  padding-top: $factor-1;
+}
+
+.pt-2{
+  padding-top: $factor-2;
+}
+
+.pt-3{
+  padding-top: $factor-3;
+}
+
+.pt-4{
+  padding-top: $factor-4;
+}
+
+.pt-5{
+  padding-top: $factor-5;
+}
+
+.pr-unset{
+  padding-right: unset;
+}
+
+.pr-1{
+  padding-right: $factor-1;
+}
+
+.pr-2{
+  padding-right: $factor-2;
+}
+
+.pr-3{
+  padding-right: $factor-3;
+}
+
+.pr-4{
+  padding-right: $factor-4;
+}
+
+.pr-5{
+  padding-right: $factor-5;
+}
+
+.pb-unset{
+  padding-bottom: unset;
+}
+
+.pb-1{
+  padding-bottom: $factor-1;
+}
+
+.pb-2{
+  padding-bottom: $factor-2;
+}
+
+.pb-3{
+  padding-bottom: $factor-3;
+}
+
+.pb-4{
+  padding-bottom: $factor-4;
+}
+
+.pb-5{
+  padding-bottom: $factor-5;
+}
+
+.pl-unset{
+  padding-left: unset;
+}
+
+.pl-1{
+  padding-left: $factor-1;
+}
+
+.pl-2{
+  padding-left: $factor-2;
+}
+
+.pl-3{
+  padding-left: $factor-3;
+}
+
+.pl-4{
+  padding-left: $factor-4;
+}
+
+.pl-5{
+  padding-left: $factor-5;
+}
+
+.m-1{
+  margin: $factor-1;
+}
+
+.m-2{
+  margin: $factor-2;
+}
+
+.m-3{
+  margin: $factor-3;
+}
+
+.m-4{
+  margin: $factor-4;
+}
+
+.m-5{
+  margin: $factor-5;
+}
+
+.mt-1{
+  margin-top: $factor-1;
+}
+
+.mt-2{
+  margin-top: $factor-2;
+}
+
+.mt-3{
+  margin-top: $factor-3;
+}
+
+.mt-4{
+  margin-top: $factor-4;
+}
+
+.mt-5{
+  margin-top: $factor-5;
+}
+
+.mr-1{
+  margin-right: $factor-1;
+}
+
+.mr-2{
+  margin-right: $factor-2;
+}
+
+.mr-3{
+  margin-right: $factor-3;
+}
+
+.mr-4{
+  margin-right: $factor-4;
+}
+
+.mr-5{
+  margin-right: $factor-5;
+}
+
+.mb-1{
+  margin-bottom: $factor-1;
+}
+
+.mb-2{
+  margin-bottom: $factor-2;
+}
+
+.mb-3{
+  margin-bottom: $factor-3;
+}
+
+.mb-4{
+  margin-bottom: $factor-4;
+}
+
+.mb-5{
+  margin-bottom: $factor-5;
+}
+
+.ml-1{
+  margin-left: $factor-1;
+}
+
+.ml-2{
+  margin-left: $factor-2;
+}
+
+.ml-3{
+  margin-left: $factor-3;
+}
+
+.ml-4{
+  margin-left: $factor-4;
+}
+
+.ml-5{
+  margin-left: $factor-5;
+}
+
+.border-none{
+  border: none;
+}
+
+.gap-1{
+  gap: $factor-1;
+}
+
+.gap-2{
+  gap: $factor-2;
+}
+
+.gap-3{
+  gap: $factor-3;
+}
+
+.gap-4{
+  gap: $factor-4;
+}
+
+.gap-5{
+  gap: $factor-5;
+}
+
+.justify-self-end{
+  justify-self: end;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-row{
+  @extend .flex;
+  flex-direction: row;
+}
+
+.flex-column{
+  @extend .flex;
+  flex-direction: column;
+}
+
+.flex-row-center{
+  @extend .flex-row;
+  align-items: center;
+}
+
+.rounded{
+  border-radius: 8px;
+}
+
+.pointer{
+  cursor: pointer;
+}

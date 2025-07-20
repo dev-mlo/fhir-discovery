@@ -1,0 +1,1 @@
+mvn package "-Dsass.watch"

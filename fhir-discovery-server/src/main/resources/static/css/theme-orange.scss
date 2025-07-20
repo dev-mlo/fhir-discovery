@@ -1,0 +1,63 @@
+$color-normal: #026773;
+$color-lighter: #3CA6A6;
+$color-light: #F2E3D5;
+$color-darker: #024959;
+$color-dark: #012E40;
+$color-warning: #F29F05;
+$color-error: #D96A29;
+
+$border-color: $color-lighter;
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: white;
+}
+
+.theme {
+  background-color: $color-normal;
+  color: white;
+}
+
+.theme-lighter {
+  background-color: $color-lighter;
+  color: black;
+}
+
+.theme-light {
+  background-color: $color-light;
+  color: black;
+}
+
+.theme-darker {
+  background-color: $color-darker;
+  color: white;
+}
+
+.theme-dark {
+  background-color: $color-dark;
+  color: white;
+}
+
+.theme-warning {
+  background-color: $color-warning;
+  color: black;
+}
+
+.theme-error {
+  background-color: $color-error;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  :visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
